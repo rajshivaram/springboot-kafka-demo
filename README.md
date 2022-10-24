@@ -28,9 +28,9 @@ You can also modify the Kafka Topics Name and Consumer Group ID name in the appl
 
 Public route of the app will be the base endpoint. Body is JSON and the example is mentioned below
 
-```
-base_endpoint/api/v1/kafka/publish
+*base_endpoint/api/v1/kafka/publish*
 
+```
 {
     "patientId":4,
     "firstName": "John",
