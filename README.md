@@ -22,3 +22,18 @@ You can also modify the Kafka Topics Name and Consumer Group ID name in the appl
 
 3. Copy the contents of the certificate found in the service key of the Brokered Kafka instance into the ca.pem file. In this example code it is located under the resources folder. In case you want to change the path then you will also need to modify the following property {spring.kafka.ssl.trust-store-location}
 ```
+
+
+**POST API**
+
+Public route of the app will be the base endpoint. Body is JSON and the example is mentioned below
+
+```
+base_endpoint/api/v1/kafka/publish
+
+{
+    "patientId":4,
+    "firstName": "Jolly",
+    "lastName": "Doe"
+}
+```
