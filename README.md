@@ -33,7 +33,7 @@ base_endpoint/api/v1/kafka/publish
 
 {
     "patientId":4,
-    "firstName": "Jolly",
+    "firstName": "John",
     "lastName": "Doe"
 }
 ```
